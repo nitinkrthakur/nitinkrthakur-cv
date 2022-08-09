@@ -67,7 +67,7 @@ const nav=document.querySelector(".nav"),
         }
 
      }
-document.querySelector(".hire-me").addEventListener("click",function()
+document.querySelector(".resume").addEventListener("click",function()
 {
     const sectionIndex=this.getAttribute("data-section-index");
     showSection(this);
